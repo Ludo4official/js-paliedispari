@@ -49,7 +49,7 @@ function granSomma(somma) {
 
 const risposta = granSomma(somma);
 
-alert('Il numero è ' + risposta);
+
 
 if (risposta == 'ERRORE') {
 
@@ -58,16 +58,32 @@ if (risposta == 'ERRORE') {
 }
 else if (risposta == 'pari') {
 
-    alert('Il numero è pari');
+    alert('Il risultato è pari');
 
 }
 else {
     
-    alert('Il numero è dispari');
+    alert('Il risultato è dispari');
 
 }
 
+if (risposta == pariODispari) {
+    
+    alert('Complimenti, hai vinto!')
 
+}
+else {
+    
+    alert('Che sfortuna! Hai perso malamente!')
+
+}
+    
+
+
+
+
+
+ 
 
 
     
